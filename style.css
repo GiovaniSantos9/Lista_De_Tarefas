@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 80px 4%;
+}
+
+.container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.adicionar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input {
+    width: 385px;
+    border: 1px solid black;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    border-right: none;
+    padding: 8px;
+
+}
+
+.adicionar button {
+    color: #fff;
+    padding: 9px 15px;
+    background-color: rgb(0, 0, 0);
+    border: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    cursor: pointer;
+}
+
+.adicionar button:hover {
+    transform: scale(1.02);
+    transition: .6s;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.geral {
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+.listas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.lista-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 15px;
+    gap: 20px;
+    background-color: rgba(255, 255, 255, 0.932);
+    min-width: 100%;
+}
+
+.lista {
+    border: 1px solid black;
+    display: flex;
+    padding: 10px;
+    width: 100%;
+    max-width: 400px;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+.lista p {
+    font-size: 16px;
+    font-weight: 550;
+    word-break: break-all;
+    margin-right: 7px;
+    margin-left: 7px;
+}
+
+.lista button {
+    color: #fff;
+    padding: 9px 15px;
+    background-color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.lista button:hover {
+    transform: scale(1.02);
+    transition: .3s;
+    background-color: rgb(204, 7, 7);
+    color: white;
+}
+
+.checked{
+    text-decoration: line-through;
+    color: gray;
+    
+}
